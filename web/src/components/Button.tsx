@@ -9,7 +9,7 @@ export function Button(props: ButtonProps) {
       className={
         !`none`
           ? `bg-none`
-          : `center max-w-sm py-1 px-3 rounded border bg-gradient-to-br hover:text-pink-100 hover:bg-gradient-to-r hover:from-indigo-500 hover:via-purple-500 hover:to-pink-500 hover:shadow-lg hover:shadow-zinc-400 border-none transition-all`
+          : `center max-w-sm py-1 px-3 rounded border bg-gradient-to-r hover:text-pink-100 hover:from-indigo-700 hover:via-indigo-500 hover:to-indigo-300 hover:shadow-lg hover:shadow-zinc-400 border-none transition-all`
       }
       onSubmit={props.onSubmit}
       {...props}
